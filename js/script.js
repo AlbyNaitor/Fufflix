@@ -107,6 +107,8 @@ function alertPersonalizzato(title, body) {
 }
 
 function attivaLoader(id) {
+   const video = $("#" + id);
+
    video.addClass("centrato");
    video.removeClass("griglia row");
 
