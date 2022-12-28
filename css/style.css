@@ -1,0 +1,106 @@
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+}
+
+.mainContent {
+   flex: 1;
+}
+
+/* #region  Main Page*/
+
+#btnModale {
+   display: none;
+}
+
+.centrato {
+   display: flex;
+   justify-content: center;
+}
+
+#reloadButton svg {
+   background-color: #fa4f20;
+   margin: 0;
+   color: white;
+   padding: 15px;
+   border-radius: 50%;
+   width: 1vw;
+   min-width: 50px;
+   height: 1vw;
+   min-height: 50px;
+}
+
+#loader {
+   margin: 15px;
+}
+
+#reloadButton p {
+   text-align: center !important;
+   margin: 0;
+}
+
+#reloadButton {
+   padding: 15px;
+}
+
+#video {
+   width: 100%;
+}
+
+.griglia {
+   margin: 0;
+   justify-content: space-around;
+}
+
+.videoCard:hover {
+   background-color: #f0146b;
+   border: 5px solid #f0146b;
+   transition: 0.3s linear;
+}
+
+.videoCard {
+   background-color: #ff6901;
+   color: white;
+   border-radius: 25px;
+   border: 5px solid #ff6901;
+   transition: 0.3s linear;
+   max-width: 800px;
+}
+
+.videoCard img {
+   border-radius: 20px;
+}
+
+.griglia svg {
+   display: none;
+}
+
+footer {
+   margin-top: 50px;
+   background: linear-gradient(0deg, #fd600d 0%, #fa501f 100%);
+}
+
+/* #endregion */
+
+/* #region Video page*/
+
+#videoPlayer {
+   border-radius: 25px;
+}
+
+#videoContainer {
+   padding: 0 !important;
+}
+
+#videoContainer .videoCard {
+   background-color: rgba(0, 0, 0, 0.6);
+   border: 5px solid rgba(0, 0, 0, 0);
+}
+
+#videoContainer .videoCard h3,
+#videoContainer .videoCard p {
+   text-align: left;
+}
+
+/* #endregion */
