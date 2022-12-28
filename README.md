@@ -1,2 +1,3 @@
 # Fufflix
-Just a simple project made for fun
+Just a simple project made because my teacher told me to
+Essentially is a low-budget YouTube
